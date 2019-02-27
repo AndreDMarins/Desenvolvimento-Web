@@ -1,0 +1,111 @@
+/**Limpar formatações padrão*/
+*{
+	margin: 0;
+	padding: 0;
+
+}
+
+body{
+	font-size: 16px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #f3f3f3;
+
+}
+
+/*******************ID*************************/
+#navegacao{
+	background: #FFF;
+	border-bottom: 1px solid #d8d8d8;
+	height: 45px;
+	position: fixed;
+	width: 100%;
+	top: 0;
+
+}
+
+#area{
+	width: 720px;
+	margin: 0 auto;
+	/*border: solid red;*/
+}
+
+#area-principal{
+	width: 720px;
+	margin: 55px auto 10px auto;
+	/*border: 1px solid red;*/
+
+}
+
+#menu{
+	float: right;
+	/*border: 1px solid;*/
+	padding: 10px;
+
+	}
+
+#logo{
+	float: left;
+}
+#postagem{
+	background: #FFF;
+	padding: 10px;
+	margin-bottom: 10px;
+
+}
+h2{
+	color: #b9c941;
+}
+
+/******************************Classes*****************************/
+.verde{
+	color: #b9c941;
+}
+
+.data-postagem{
+	font-size: 12px;
+	border-bottom: 1px solid #f4f4f4;
+	display: block;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+
+.img-postagem{
+	float: left;
+	margin: 0px 10px 10px 0px;
+
+}
+.postado{
+	border-left: 5px solid #d8d8d8;
+	padding-left: 5px;
+	display: block;
+	margin-top: 10px;
+}
+
+/*************************formatação do menu***************************/
+
+/*removendo o underline dos links*/
+a{
+	text-decoration: none;
+	padding: 5px 10px;
+}
+
+/*Links Não visitados*/
+a:link{
+	color: #838383;
+}
+
+/*Links visitados*/
+a:visited{
+	color: #838383;
+}
+
+/*Links Hover*/
+a:hover{
+	color: #FFF;
+	background: #9bc941;
+}
+
+/*Links active*/
+a:active{
+	color: #535353;
+}

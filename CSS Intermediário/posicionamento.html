@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Posicionamento</title>
+		<meta charset="utf-8">
+		<style type="text/css">
+			body{
+				background: #61bd8c;
+				padding: 10px;
+			}			
+			#conteudiprincipal{
+				background: #FFFFFF;
+				padding: 10px;
+				width: 600px;
+				height: 2500px;
+				margin:auto; /*Centralizando*/
+				position: relative;
+				margin-top: 120px;
+
+			}
+
+			.caixa{
+				background: #1e6f44;
+				width: 100px;
+				height: 100px;
+				color: #FFFFFF;
+			}
+
+			#relativo{
+				position: relative;/*Movimenta o elemento baseado na sua posição inicial*/
+				left: 30px;/*pode ser negativo também*/
+				top: 0px;
+			}
+
+			#absoluto{
+				position: absolute;
+				top: 10px;
+				/*bottom*/
+				left: 30px;
+				/*right*/
+			}
+
+			#fixo{
+				position: fixed;
+				top: 0;
+				left: 0;
+				width: 100%;
+				background: #000;
+			}
+
+		</style>
+
+	</head>
+
+	<body>
+		
+		
+		<div id="conteudiprincipal">
+			<h1>Posicionamento</h1>
+			<h4>Relative</h4>
+			<div id="relativo" class="caixa">Relative</div>
+
+			
+			<h4>Absolute</h4>
+			<div id="absoluto" class="caixa">Absolute</div>
+			
+			<h4>Fixed</h4>
+			<div id="fixo" class="caixa">
+				<a href="index.html">Voltar</a><br>
+				FIxed
+			</div>
+
+		</div>
+
+
+	</body>
+</html>
