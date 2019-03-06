@@ -1,0 +1,14 @@
+#box{
+	width: 300px;
+	height: auto;
+	margin: 50px auto;
+	padding: 5px;
+	background:#009670;
+	box-shadow: 10px 10px  10px black;
+}
+
+#box h1{
+	color:white;
+	font-size: 60px;
+	text-shadow: 10px 10px 10px black;
+}
